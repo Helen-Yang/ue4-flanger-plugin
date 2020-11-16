@@ -16,8 +16,13 @@ The parameters I exposed in this plugin were: wet/dry amount (amount of delay an
 
 ## Spectrograms
 Some spectrograms: 
-![White noise, increasing LFO frequency](wn_inc_freq.jpg)
-![White noise, decreasing LFO amplitude](wn_dec_amp.jpg)
-![White noise, decreasing center delay](dec_ctr_del.jpg)
-![White noise, wet versus dry](wet_dry.jpg)
-![Synth with more interesting frequency content](synth.jpg)
+White noise, increasing LFO frequency ![White noise, increasing LFO frequency](wn_inc_freq.jpg)
+
+White noise, decreasing LFO amplitude ![White noise, decreasing LFO amplitude](wn_dec_amp.jpg)
+
+White noise, decreasing center delay ![White noise, decreasing center delay](dec_ctr_del.jpg)
+
+White noise, wet versus dry ![White noise, wet versus dry](wet_dry.jpg)
+
+Synth with more interesting frequency content ![Synth with more interesting frequency content](synth.jpg)
+

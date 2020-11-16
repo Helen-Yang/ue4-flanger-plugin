@@ -15,14 +15,22 @@ A [flanger effect](https://en.wikipedia.org/wiki/Flanging) is a digital signal p
 The parameters I exposed in this plugin were: wet/dry amount (amount of delay and original signal), center delay, LFO frequency, and LFO amplitude. The delay amount for a given sample is equal to the center delay plus the sample of the LFO at the specified frequency, multiplied by the specified amplitude.  
 
 ## Spectrograms
-Some spectrograms: 
-White noise, increasing LFO frequency ![White noise, increasing LFO frequency](wn_inc_freq.jpg)
+Some spectrograms:   
+White noise, increasing LFO frequency  
+![White noise, increasing LFO frequency](wn_inc_freq.jpg)  
 
-White noise, decreasing LFO amplitude ![White noise, decreasing LFO amplitude](wn_dec_amp.jpg)
+White noise, decreasing LFO amplitude  
+![White noise, decreasing LFO amplitude](wn_dec_amp.jpg)  
 
-White noise, decreasing center delay ![White noise, decreasing center delay](dec_ctr_del.jpg)
+White noise, decreasing center delay  
+![White noise, decreasing center delay](dec_ctr_del.jpg)  
 
-White noise, wet versus dry ![White noise, wet versus dry](wet_dry.jpg)
+White noise, wet versus dry  
+![White noise, wet versus dry](wet_dry.jpg)  
 
-Synth with more interesting frequency content ![Synth with more interesting frequency content](synth.jpg)
+Synth with more interesting frequency content  
+![Synth with more interesting frequency content](synth.jpg)  
 
+Spectrograms created with REAPER DAW, audio files [from](https://upload.wikimedia.org/wikipedia/commons/9/98/White-noise-sound-20sec-mono-44100Hz.ogg) [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/5/56/Flanging_effect.ogg). 
+
+Main C++ code for the plugin is in this repository, but depends on modified code from the UE4 forum thread which I wasn't sure if I should upload here. 

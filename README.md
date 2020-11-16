@@ -5,8 +5,8 @@ Based on this "Making a UE Plugin for Audio From Scratch" [UE4 Forum Thread](htt
 In UE4, Source Effect Preset assets can be chained in a Source Effect Preset chain, which can be applied to a Sound Wave (audio file asset). Changing effect parameters can be auditioned in real time as the sound file plays in the editor! 
 
 **Videos of the UE4 side here:**
-[Effects of flanger on white noise, which contains a wide range of frequency content](link)
-[Synth with effect, which makes cool sounds :)](link) 
+[Effects of flanger on white noise, which contains a wide range of frequency content](https://twitter.com/thorontaur/status/1328438732840599552?s=20)
+[Synth with effect, which makes cool sounds :)](https://twitter.com/thorontaur/status/1328438758186708992?s=20) 
 
 
 ## Flanger Effect
@@ -33,4 +33,4 @@ Synth with more interesting frequency content
 
 Spectrograms created with REAPER DAW, audio files [from](https://upload.wikimedia.org/wikipedia/commons/9/98/White-noise-sound-20sec-mono-44100Hz.ogg) [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/5/56/Flanging_effect.ogg). 
 
-Main C++ code for the plugin is in this repository, but depends on modified code from the UE4 forum thread which I wasn't sure if I should upload here. 
+Main C++ code for the plugin is in this repository, but depends on modified code from the UE4 forum thread linked above which I wasn't sure if I should upload here. 

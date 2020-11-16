@@ -4,8 +4,8 @@ Based on this "Making a UE Plugin for Audio From Scratch" [UE4 Forum Thread](htt
 
 In UE4, Source Effect Preset assets can be chained in a Source Effect Preset chain, which can be applied to a Sound Wave (audio file asset). Changing effect parameters can be auditioned in real time as the sound file plays in the editor! 
 
-**Videos of the UE4 side here:**
-[Effects of flanger on white noise, which contains a wide range of frequency content](https://twitter.com/thorontaur/status/1328438732840599552?s=20)
+**Videos of the UE4 side here:**  
+[Effects of flanger on white noise, which contains a wide range of frequency content](https://twitter.com/thorontaur/status/1328438732840599552?s=20)  
 [Synth with effect, which makes cool sounds :)](https://twitter.com/thorontaur/status/1328438758186708992?s=20) 
 
 
@@ -15,7 +15,6 @@ A [flanger effect](https://en.wikipedia.org/wiki/Flanging) is a digital signal p
 The parameters I exposed in this plugin were: wet/dry amount (amount of delay and original signal), center delay, LFO frequency, and LFO amplitude. The delay amount for a given sample is equal to the center delay plus the sample of the LFO at the specified frequency, multiplied by the specified amplitude.  
 
 ## Spectrograms
-Some spectrograms:   
 White noise, increasing LFO frequency  
 ![White noise, increasing LFO frequency](wn_inc_freq.jpg)  
 
